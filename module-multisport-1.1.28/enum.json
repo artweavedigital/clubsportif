@@ -1,0 +1,10 @@
+{
+  "name": "multisport",
+  "realname": "MultiSport — sport champ texte (paramètres)",
+  "version": "1.1.28",
+  "versionDate": 1772409600,
+  "delete": true,
+  "author": "Module généré",
+  "license": "GPL-3.0-or-later",
+  "description": "UI raffinée (bannière + logo + menu élégant) — gestion privée (parents1+parents2), équipes, événements, convocations, uploads, signature."
+}

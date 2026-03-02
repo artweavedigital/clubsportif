@@ -1,0 +1,18 @@
+.ac{border:1px solid rgba(0,0,0,.08);border-radius:18px;background:#fff;box-shadow:0 10px 28px rgba(0,0,0,.06);overflow:hidden}
+.ac-header{display:flex;align-items:center;justify-content:space-between;padding:12px 14px;background:linear-gradient(135deg,#ffffff,#f5f6f8)}
+.ac-title{font-weight:800;opacity:.9}
+.ac-btn{border:1px solid rgba(0,0,0,.10);background:#fff;border-radius:12px;padding:8px 12px;cursor:pointer}
+.ac-btn:hover{background:#f4f5f7}
+.ac-dow{display:grid;grid-template-columns:repeat(7,1fr);gap:0;border-top:1px solid rgba(0,0,0,.06);border-bottom:1px solid rgba(0,0,0,.06);background:#fff}
+.ac-dow>div{padding:10px 0;text-align:center;opacity:.7;font-weight:700;font-size:.9rem}
+.ac-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:0}
+.ac-cell{min-height:86px;border:0;border-right:1px solid rgba(0,0,0,.06);border-bottom:1px solid rgba(0,0,0,.06);background:#fff;padding:10px;text-align:left;cursor:pointer;position:relative}
+.ac-grid .ac-cell:nth-child(7n){border-right:0}
+.ac-cell:hover{background:#f7f8fa}
+.ac-off{background:#fafbfc;cursor:default}
+.ac-day{font-weight:800;opacity:.86}
+.ac-dots{display:flex;gap:6px;margin-top:8px}
+.ac-dot{width:7px;height:7px;border-radius:99px;background:rgba(0,0,0,.35)}
+.ac-mini{margin-top:8px;font-size:.88rem;opacity:.75;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.ac-footer{padding:10px 14px;opacity:.72;background:#fff}
+.ac-anim{opacity:.35;transform:translateY(2px);transition:all .2s ease}
